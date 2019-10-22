@@ -44,7 +44,7 @@ bounding box manually using the ``bb`` argument.
 
 .. code-block:: python
 
-    mm_viz.plot_map(map_con, matcher=matcher,
+    mmviz.plot_map(map_con, matcher=matcher,
                     use_osm=True, zoom_path=True,
                     show_labels=False, show_matching=True, show_graph=False,
                     filename="my_osm_plot.png")
